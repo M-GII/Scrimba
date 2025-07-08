@@ -1,2 +1,1 @@
-x = "Hello"
-print(x)
+print("Hello")
