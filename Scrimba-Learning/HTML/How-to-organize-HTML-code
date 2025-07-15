@@ -1,0 +1,17 @@
+<!doctype html> <!--tells browser what verison of HTML your using so it doesn't use old html versions that could apply different things to the code 
+(Declares the document type and version of HTML (HTML5)) -->
+
+<html> <!--To show that the code written is in html (Root element: wraps all HTML content and tells the browser this is an HTML document) -->
+
+    <head> <!-- Contains metadata (data about the page), like the title, character set, stylesheets, and scripts.
+       Metadata is not displayed on the page but helps the browser understand how to load and display it. -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> <!--Stores everything we actually see -->
+        <img src="google.png">
+        <input type="text">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+        <p>We protect your privacy. <a href="blog.html">Learn how.</a></p>
+    </body>
+</html>

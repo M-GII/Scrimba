@@ -1,0 +1,8 @@
+body { /* tells the browser what part of the html code is being chnaged/affected */
+    background: blue;     /* red, blue, yellow, etc */
+    color: black;             /* red, blue, yellow, etc */
+    font-size: 30px;        /* 0px - 100px and beyond */
+    font-weight: bold;   /* lighter, normal, bold  */
+    text-align: center;      /* left, center or right  */ 
+    margin-top: 0px;        /* From 0px and upwards   */
+}
