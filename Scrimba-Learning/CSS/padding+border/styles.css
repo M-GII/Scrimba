@@ -1,0 +1,16 @@
+.card {
+    color: #222222;
+    background: lightgray;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+    padding: 20px; /* Adds space inside the element, between the content and its border (unlike margin, which adds space outside) */
+
+    border: 2px solid red; /*customize the border between the margins and padding (Defines the visible edge of the element, 
+                              between the padding (inside) and the margin (outside)) */
+    border-radius: 30px; /* Rounds the corners of the element by reducing their sharpness */
+}
+
