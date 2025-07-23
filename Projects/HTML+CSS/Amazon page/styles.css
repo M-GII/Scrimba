@@ -33,3 +33,6 @@ ul.breadcrumb {
   .bread-main-img{
     padding-left: 50px;
   }
+  a{
+    color:blue;
+  }
