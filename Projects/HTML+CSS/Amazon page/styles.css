@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display:flex;
+    border: 2px solid black;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    width: 350px;
+}
+.ratings-img{
+    width: 100px;
+}
+.main-text{
+    padding-left: 50px;
+    padding-top: 0;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  color: #565959;
+  }
+  ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+  }
+  .bread-main-img{
+    padding-left: 50px;
+  }
