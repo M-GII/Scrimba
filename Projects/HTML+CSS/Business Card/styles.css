@@ -4,6 +4,7 @@ body {
 }
 .img1 {
     width:150px;
+    box-shadow: 5px 5px skyblue;
 }
 .card{
     
@@ -17,8 +18,14 @@ body {
     border: 1px solid #ddebf8;
     border-bottom: 4px solid #d8cefe;
     background: #ddebf8;
+    text-shadow: 5px 5px 5px skyblue;
+  
 }
 .dotted{
     border: 1px dotted blue;
 }
 
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
