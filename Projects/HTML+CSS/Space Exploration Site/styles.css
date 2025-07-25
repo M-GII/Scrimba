@@ -1,0 +1,12 @@
+body {
+    color:white;
+    background-image: url("./images/universe.jpg");
+    background-size: cover; /*makes background cover the whole container its in */
+    text-align: center;
+}
+.but1{ 
+    padding: 5px 10px;
+    background-color: white;
+}
+    
+
