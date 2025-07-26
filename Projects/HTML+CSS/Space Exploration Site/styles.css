@@ -1,12 +1,34 @@
-body {
-    color:white;
-    background-image: url("./images/universe.jpg");
-    background-size: cover; /*makes background cover the whole container its in */
+body{
+    color: #82a5ca;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+.hero {
+    background-image: url("images/galaxy.webp");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10px 0 50px 0;
+    aspect-ratio: 4/1;
+    margin: 0;
+    text-shadow: 0px 0px 4px black;
+}
+h3{
     text-align: center;
 }
+
 .but1{ 
     padding: 5px 10px;
     background-color: white;
+    border: none;
+    font-family: "Orbitron", sans-serif;
+    color: #82a5ca;
+    font-weight: 800;
 }
-    
 
+.underline{
+    border-bottom: 4px solid white;
+}
+#main-image{
+    width: 100px;
+}
