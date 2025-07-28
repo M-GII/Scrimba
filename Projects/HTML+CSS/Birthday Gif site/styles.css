@@ -9,9 +9,9 @@ body{
 }
     
 #header{
-display: flex;
-flex-direction: column;
-align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #bday-age {
     background: #EFB0C9;
@@ -27,7 +27,6 @@ align-items: center;
     border-radius: 5px;
 }
 
-
 h1,h2,h3,h4,p{
     text-shadow: 0 0 1px black;
 }
@@ -38,6 +37,46 @@ h1,h2,h3,h4,p{
     
 
 }
-h2,h4{
-   background: #EFB0C9; 
+
+.gift-section {
+    margin-top: 50px;
+    
+}
+
+.gift{
+    background-image: url("images/gift-cover.jpg");
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.g-s-head{
+    margin-bottom: 0px;
+}
+.g-s-hint{
+    margin-top:10px;
+}
+
+#gift-img-happy:hover{
+    background-image: url("images/happy.gif");
+    background-size: cover;
+}
+
+#gift-img-hot:hover{
+   background-image: url("images/hot.gif"); 
+}
+#gift-img-genius:hover{
+   background-image: url("images/genius.gif"); 
+}
+#gift-img-badass:hover{
+   background-image: url("images/badass.gif"); 
+}
+#gift-img-cheers{
+   height: 200px; 
+}
+#gift-img-cheers:hover{
+   background-image: url("images/cheers.gif"); 
 }
