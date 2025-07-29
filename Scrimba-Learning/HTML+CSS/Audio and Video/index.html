@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Tom on the Scrimba Podcast</title>
+		<link rel="stylesheet" href="index.css">
+	</head>
+
+	<body>
+		<audio controls> <!-- 'controls' adds built-in audio player UI (play, pause, volume, etc.) -->
+			<a href="media/audio/scrimbaPodTom.mp3">download audio</a>   <!-- Fallback download link in case the audio cannot be played -->
+			<source src="media/audio/scrimbaPodTom.mp3" type="audio/mp3">  <!-- First audio source (MP3 format). Most browsers support this. -->
+			<source src="media/audio/scrimbaPodTom.wav" type="audio/wav">  <!-- Second audio source (WAV format). Used if MP3 is not supported. -->
+
+             <!-- Note: 'src' is not in the <audio> tag because we're using <source> for multiple formats.
+                  This allows the browser to choose the first format it supports. -->
+                  
+             <!-- Note: type is used to tell the browser the file type and see if its compatible if not it will just skip over it.
+                  Without type it would have to retrieve the file download and then see if its compatible therefore slowing down the browser loading time -->
+        </audio>
+        <video controls width="200" height="200";> <!-- Width and Height can also be done in CSS also also remember to adjust size-->
+            <a href="media/video/scrimbaPodTom.mp4">download video </a>
+            <source src="media/video/scrimbaPodTom.mp4" type="audio/mp4">
+            <source src="media/video/scrimbaPodTom.webm" type="video/webp">
+        </video>
+	</body>
+		
+
+
+</html>
