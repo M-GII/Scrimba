@@ -1,0 +1,68 @@
+<head>
+		<title>My Concerts Table</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+
+	<body>
+		<!-- Starts the table structure for displaying concert information -->
+<table>
+
+    <!-- Adds a title or label for the table -->
+    <caption>My Concerts 🎸</caption>
+
+    <!-- Defines the header section of the table -->
+    <thead>
+        <!-- A single row in the header -->
+        <tr>
+            <!-- Header cell for the first column; 'scope="col"' means this header is for a column -->
+            <th scope="col">Artist</th>
+            <!-- Header cell for the second column -->
+            <th scope="col">Location</th>
+            <!-- Header cell for the third column -->
+            <th scope="col">Cost</th>
+        </tr>
+    </thead>
+
+    <!-- Main content of the table -->
+    <tbody>
+        <!-- Each row represents one concert entry -->
+        <tr>
+            <!-- Standard data cell with the artist name -->
+            <td>Blur</td>
+            <!-- Data cell with the concert location -->
+            <td>Exeter</td>
+            <!-- Data cell with the ticket cost -->
+            <td>£50</td>
+        </tr>
+        <tr>
+            <td>Billie Eilish</td>
+            <td>London</td>
+            <td>£90</td>
+        </tr>
+        <tr>
+            <td>The Weeknd</td>
+            <td>Glasgow</td>
+            <td>£110</td>
+        </tr>
+        <tr>
+            <td>Adele</td>
+            <td>Bristol</td>
+            <td>£65</td>
+        </tr>
+    </tbody>
+
+    <!-- Footer section used to display the total cost -->
+    <tfoot>
+        <tr>
+            <!-- Cell spans two columns using 'colspan="2"' to cover Artist and Location columns -->
+            <td colspan="2">Sum</td>
+            <!-- Total cost for all concerts -->
+            <td>£315</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+	</body>
+
+</html>
