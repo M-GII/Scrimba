@@ -6,14 +6,31 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 let pass1 = document.getElementById("gen-passOne")
 let pass2 = document.getElementById("gen-passTwo")
 let randomNum = 0
-function generate() {
+let generateBtn = document.getElementById("generate")
+let errorMsg= document.getElementById("error-msg")
+generateBtn.addEventListener("click" , checkLength)
+
+function checkLength(){
+     let length = Number.parseInt(document.getElementById("length-input").value)
+     if (length <5 || length > 17 ){
+        errorMsg.textContent = "ERROR! Length must be between 5-17"
+        return
+     }
+     else{
+        errorMsg.textContent = ""
+        generate(length)
+     }
+
+}
+
+function generate(length) {
     pass1.textContent=""
     pass2.textContent=""
-    for(let i = 0;i<16;i++){
+    for(let i = 0;i<length;i++){
         randomNum= Math.floor(Math.random()*characters.length)
         pass1.textContent+=characters[randomNum]
     }
-    for(let j = 0;j<16;j++){
+    for(let j = 0;j<length;j++){
         randomNum= Math.floor(Math.random()*characters.length)
         pass2.textContent+=characters[randomNum]
     }
@@ -25,10 +42,10 @@ function generate() {
     alert("Copied: " + text);
   }
 
-  pass1.addEventListener("click", function() {
-    copy(pass1);
-})
+  pass1.addEventListener("click", function(){
+     copy(pass1)
+  })
 
-pass2.addEventListener("click", function() {
-    copy(pass2);
-})
+pass2.addEventListener("click", function(){
+     copy(pass2)
+  })

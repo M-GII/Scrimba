@@ -16,7 +16,11 @@
                 <h1>Generate a</h1>
                 <h1 class="green-color"> random password </h1>
                 <p id="subtext"> Never use an insecure password again</p>
-                <button onclick="generate()">Generate Password</button>
+                <div class="length-check">
+                    <input type="number" id="length-input" value="11" min="5" max="17">
+                     <p id="error-msg"></p>
+                 </div>
+                <button id="generate">Generate Password</button>
               
         </div>
         <p id="gen-passOne" class="password-border"></p>

@@ -28,10 +28,11 @@ button{
     padding: 10px 5px;
     border-radius: 5px;
     border: none;
+    margin-top: 15px;
 }
 
 .password-border{
-    width: 200px;
+    width: 250px;
     height: 32px;
     background: #2F3E53;
     margin-right: 20px;
@@ -41,4 +42,13 @@ button{
 }
 h1 {
     margin: 3px;
+}
+input{
+    background: #2F3E53;
+    margin-bottom: 5px;
+    color: #10B981;
+}
+#error-msg{
+    display: inline-block;
+    color: red;
 }
