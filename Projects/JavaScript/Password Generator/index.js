@@ -8,10 +8,11 @@ let pass2 = document.getElementById("gen-passTwo")
 let randomNum = 0
 let generateBtn = document.getElementById("generate")
 let errorMsg= document.getElementById("error-msg")
+let lengthValue=document.getElementById("length-input")
 generateBtn.addEventListener("click" , checkLength)
 
 function checkLength(){
-     let length = Number.parseInt(document.getElementById("length-input").value)
+     let length = Number.parseInt(lengthValue.value)
      if (length <5 || length > 17 ){
         errorMsg.textContent = "ERROR! Length must be between 5-17"
         return
@@ -48,4 +49,5 @@ function generate(length) {
 
 pass2.addEventListener("click", function(){
      copy(pass2)
+
   })
