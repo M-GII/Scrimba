@@ -7,7 +7,9 @@ body {
 }
 .container{
     width: 600px;
-    margin:auto;
+    margin: 250px auto;
+   transform: scale(2); /* 1.2 means 120% size */
+   transform-origin: center; /* scales from the center */
 }
 .text{
     padding-bottom: 10px;
@@ -37,4 +39,8 @@ button{
     margin-right: 20px;
     display: inline-block;
     border-radius: 6px;
+    color: #10B981;
+}
+h1 {
+    margin-top: 3px;
 }

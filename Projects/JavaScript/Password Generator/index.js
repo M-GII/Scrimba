@@ -1,7 +1,7 @@
 const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z",
                     "a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z", 
                     "0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
-                    "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"];
+                    "~","`","!","@","#","$","%","^","&","*","(",")","_","-","+","=","{","[","}","]",",","|",":",";","<",">",".","?","/"]
 
 let pass1 = document.getElementById("gen-passOne")
 let pass2 = document.getElementById("gen-passTwo")
@@ -18,3 +18,17 @@ function generate() {
         pass2.textContent+=characters[randomNum]
     }
 }
+
+ function copy(element) {
+    let text = element.textContent;
+    navigator.clipboard.writeText(text)
+    alert("Copied: " + text);
+  }
+
+  pass1.addEventListener("click", function() {
+    copy(pass1);
+})
+
+pass2.addEventListener("click", function() {
+    copy(pass2);
+})
