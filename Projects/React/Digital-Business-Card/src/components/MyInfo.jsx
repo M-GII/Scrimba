@@ -7,7 +7,7 @@ export default function MyInfo(){
     }
     return (
         <main>
-            <img src = "./src/images/myFace.png" alt="Picture of Manroj Gill" id="myFace" /> 
+            <img src = "./src/images/MyFace.png" alt="Picture of Manroj Gill" id="myFace" /> 
             <h2> Manroj Gill</h2> 
             <p> <span id="myTitle">Aspiring Web Developer </span> </p>
             <div className="Email-LinkedIn-btn">
