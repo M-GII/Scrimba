@@ -1,0 +1,113 @@
+body{
+  background-color: #23252c;
+}
+.content{
+  width: 317px;
+  background-color: #1A1B21;
+  color: #dcdcdc;
+  font-family:  "Inter", sans-serif;
+  margin:0 auto;
+  border-radius:4px;
+}
+
+main{
+  text-align: center;
+}
+
+img{
+  width:317px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+h2{
+  margin-bottom: 3px;
+}
+
+#myTitle{
+  font-size: 12.8px;
+  margin-top: 0;
+  color:#f3bf99;
+}
+
+.main-btn{
+  border:none;
+  border-radius: 6px;
+  width:115px;
+  height: 34px;
+  font-family: "Inter", sans-serif;
+  font-weight:400 ;
+  font-size: 14px;
+  line-height: 16px;
+  background-repeat: no-repeat;
+  
+}
+#email-btn{
+  background-color: white;
+  background-image: url(./images/Icon.jpg);
+  background-size: 12.8px 9.6px;
+  padding-left: 25px;
+  margin-right: 10px;
+  background-position: 25% center;
+}
+#LinkedIn-btn{
+  background-color:#0077B5;
+  color: white;
+  background-image: url(./images/LinkedIn.png);
+  background-position: 20% center;
+  background-size: 15.8px 13.6px;
+  padding-left: 25px;
+}
+.my-interests , .About-me{
+  width:247px;
+  margin:25px auto;
+
+}
+.About-me{
+  margin-top: 40px;
+}
+h3{
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+p {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 12.24px;
+}
+.Footer{
+  margin-top: 50px;
+  height:64px;
+  background: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+#JumptoTwitter{
+  background-image: url(./images/Twitter.jpg);
+}
+#JumptoInsta{
+  background-image: url(./images/Instagram.jpg);
+}
+#JumptoFacebook{
+  background-image: url(./images/Facebook.jpg);
+}
+#JumptoGitHub{
+  background-image: url(./images/GitHub.jpg);
+}
+#JumptoTwitter , #JumptoInsta , #JumptoFacebook ,#JumptoGitHub{
+  width: 25px;
+  height: 25px;
+  margin: 15px;
+  border:none;
+  border-radius: 2px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #918e9b;
+}
+
