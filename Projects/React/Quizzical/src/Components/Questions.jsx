@@ -83,7 +83,7 @@ export default function Questions(props){
             {showAnswers &&
 
                 <section className="display-correctAns">
-                    <p> You scored {answersCorrect}/{questions.length} correct answers</p>
+                    <p> You got {answersCorrect}/{questions.length} questions correct </p>
                     <button onClick= {props.showStartPage}>Play again</button>
                 </section>
             }
