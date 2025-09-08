@@ -1,0 +1,80 @@
+body {
+  background-color: #F5F7FB;
+  font-family: "Karla", sans-serif;
+  color: #293264;
+  height: 100%;
+  text-align: center;
+}
+
+section.starting-page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+  text-align: center;
+
+}
+section.starting-page > h1{
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 31.25px;
+  margin-bottom: 0px;
+}
+
+section.starting-page > p{
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+}
+
+section.starting-page > button{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 8%;
+  height: 5%;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+section.Questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  text-align:center ;
+  margin: 0 auto;
+}
+section.Questions > .Question {
+  border-bottom: 1px solid #DBDEF0;
+}
+section.Questions > .Question > .answer-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+
+}
+
+section.Questions > .Question > .answer-buttons > .answer-btn{
+  background-color:#F5F7FB ;
+  border: 1px solid #4D5B9E;
+  border-radius:7.71px ;
+  color:#293264;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  padding: 4px 16px;
+  margin: 4px;
+  cursor: pointer;
+
+}
