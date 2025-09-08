@@ -6,8 +6,7 @@ import { clsx } from "clsx"
 export default function Questions(){
     const [questions,setQuestions] = useState([])
     const [showAnswers , setShowAnswers ] = useState(false)
-    let answersCorrect = 0
-
+    const answersCorrect = questions.map(q => q.options.some(o => o.isClicked && o.isCorrect)).filter(Boolean).length
     useEffect(() => {
         fetch("https://opentdb.com/api.php?amount=5")
             .then(res => res.json())
@@ -81,6 +80,16 @@ export default function Questions(){
             {!showAnswers && showQuestions}
             {!showAnswers && <button disabled= {!questions.every(question => question.isSubmitted ===true)} onClick ={() => setShowAnswers(prev => !prev)} className='check-ansBtn'> Check Answers </button>}
             {showAnswers && showCorrectAnswers}
+            {showAnswers &&
+
+                <section className="display-correctAns">
+                    <p> You scored {answersCorrect}/{questions.length} correct answers</p>
+                    <button>Play again</button>
+
+
+                </section>
+            
+            }
         </section>
         
     )
