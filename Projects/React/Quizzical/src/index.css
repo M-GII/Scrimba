@@ -78,3 +78,8 @@ section.Questions > .Question > .answer-buttons > .answer-btn{
   cursor: pointer;
 
 }
+
+section.Questions > .Question > .answer-buttons >.answer-btn.option-selected{
+  background-color: #D6DBF5;
+  border: none
+}
