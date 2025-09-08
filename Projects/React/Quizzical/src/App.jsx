@@ -6,7 +6,7 @@ export default function App(){
   return (
     <main>
       {!showQuestionsPage && <StartingPage onClick = {() => setShowQuestionsPage(!showQuestionsPage)} />}
-      {showQuestionsPage && <Questions />}
+      {showQuestionsPage  && <Questions showStartPage = {() => setShowQuestionsPage(!showQuestionsPage)} />}
 
 
     </main>

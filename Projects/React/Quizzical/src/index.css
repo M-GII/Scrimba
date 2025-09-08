@@ -107,3 +107,27 @@ section.Questions > .Question > .answer-buttons >.answer-btn.wrong{
   background-color:#F8BCBC;
   border: none;
 }
+section.Questions > .display-correctAns{
+  width: 50%;
+  margin-top: 15px;
+  display: flex;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+}
+section.Questions > .display-correctAns > button{
+  margin-left: 10px;
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 16px;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 15px;
+
+}

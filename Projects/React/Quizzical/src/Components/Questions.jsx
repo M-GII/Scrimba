@@ -3,7 +3,7 @@ import he from "he"
 import { nanoid } from "nanoid"
 import { clsx } from "clsx"
 
-export default function Questions(){
+export default function Questions(props){
     const [questions,setQuestions] = useState([])
     const [showAnswers , setShowAnswers ] = useState(false)
     const answersCorrect = questions.map(q => q.options.some(o => o.isClicked && o.isCorrect)).filter(Boolean).length
@@ -56,7 +56,7 @@ export default function Questions(){
                 <section className='answer-buttons'>
                     {question.options.map(answer =>{
                         return( 
-                        <button className ={clsx("answer-btn" , answer.isClicked && answer.isCorrect && "correct", answer.isClicked && !answer.isCorrect &&"wrong")} key ={answer.id}>{answer.answer}</button>
+                        <button className ={clsx("answer-btn" ,answer.isCorrect && "correct", answer.isClicked && !answer.isCorrect &&"wrong")} key ={answer.id}>{answer.answer}</button>
                         )
                     })}
                 </section>
@@ -84,11 +84,8 @@ export default function Questions(){
 
                 <section className="display-correctAns">
                     <p> You scored {answersCorrect}/{questions.length} correct answers</p>
-                    <button>Play again</button>
-
-
+                    <button onClick= {props.showStartPage}>Play again</button>
                 </section>
-            
             }
         </section>
         
