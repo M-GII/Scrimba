@@ -83,3 +83,27 @@ section.Questions > .Question > .answer-buttons >.answer-btn.option-selected{
   background-color: #D6DBF5;
   border: none
 }
+
+section.Questions > .check-ansBtn{
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  margin-top: 35px;
+  padding:15px 20px ;
+  border-radius: 10px;
+  border: none;
+  width: 15%;
+  height: 7%;
+  font-family: "Karla", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 12x;
+}
+section.Questions > .Question > .answer-buttons >.answer-btn.correct{
+  background-color:#94D7A2;
+  border: none;
+  
+}
+section.Questions > .Question > .answer-buttons >.answer-btn.wrong{
+  background-color:#F8BCBC;
+  border: none;
+}
