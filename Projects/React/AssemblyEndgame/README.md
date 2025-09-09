@@ -3,10 +3,10 @@
 A word-guessing game built with React as part of the Scrimba React Course. This project was developed as a **capstone project**, combining state management, conditional rendering, accessibility, and external utilities into a full-featured game.
 
 ## Demo
-- [Live Site]()
+- [Live Site](https://assemblyendgame-manrojgill.netlify.app/)
 
 ## Description
-In Assembly: Endgame, players must guess a hidden programming-related word letter by letter. Each wrong guess eliminates one programming language from a list — when all languages are gone, you’re left with Assembly and the game ends. Correct guesses reveal letters in the word, and the game ends in a win if the word is fully revealed before running out of attempts.
+In Assembly: Endgame, players must guess a hidden programming related word letter by letter. Each wrong guess eliminates one programming language from a list when all languages are gone, you’re left with Assembly and the game ends. Correct guesses reveal letters in the word, and the game ends in a win if the word is fully revealed before running out of attempts.
 
 ## Features
 - Guess the word using an on-screen alphabet keyboard
@@ -15,7 +15,7 @@ In Assembly: Endgame, players must guess a hidden programming-related word lette
 - Confetti celebration on winning
 - Game over screen when all languages are lost
 - Accessible design:
-  - Screen reader–friendly status updates
+  - Screen reader friendly status updates
   - ARIA labels on keyboard buttons
   - Live region announcements for feedback
 - Option to start a new game at any time
