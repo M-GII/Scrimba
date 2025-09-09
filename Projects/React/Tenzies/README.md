@@ -1,12 +1,28 @@
-# React + Vite
+# Tenzies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React dice game built as part of the Scrimba React Course. This project was developed as a **capstone project**, applying concepts like state management, component-based design, accessibility, and conditional rendering.
 
-Currently, two official plugins are available:
+## Demo
+- [Live Site](https://tenzies-manrojgill.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+Tenzies is a fast-paced dice game where the goal is to roll until all dice show the same number. The player can "hold" specific dice to keep their values while re-rolling the rest, aiming to match all dice as quickly as possible. This version includes accessibility features and a confetti celebration when the game is won.
 
-## Expanding the ESLint configuration
+## Features
+- Roll 10 dice at once
+- Click dice to "hold" them so they don’t reroll
+- Win condition when all dice show the same value
+- Confetti effect when the player wins
+- Screen reader support with ARIA labels and live region updates
+- Responsive layout
+- "Roll" button changes to "New Game" when the game is over
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+- Each die is represented as an object with `value`, `isHeld`, and `id`
+- On each roll:
+  - Dice that are not held receive a new random value
+  - Held dice remain unchanged
+- The win condition is met when:
+  - All dice are held, and
+  - All dice show the same value
+- Once the player wins, confetti is displayed, a screen reader message is announced, and the "Roll" button becomes "New Game"
