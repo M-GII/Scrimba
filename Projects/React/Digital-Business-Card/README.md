@@ -6,7 +6,7 @@ A simple React app that showcases a personal digital business card. Built as par
 - [Live Site](https://digital-business-card-manroj.netlify.app/)
 
 ## Description
-The Digital Business Card is a clean, one-page React app that displays personal information, links, and a brief description — similar to a modern portfolio card.
+The Digital Business Card is a clean, one-page React app that displays personal information, links, and a brief description.
 
 ## Features
 - Displays name, title, and profile picture  
