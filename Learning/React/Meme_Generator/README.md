@@ -3,7 +3,7 @@
 A React build along built as part of the Scrimba React Course. This app fetches meme images from an external API and lets users generate custom memes by adding their own text on top.
 
 ## Demo
-- [Live Site](https://app.netlify.com/projects/memegeneratorscrimba/overview)
+- [Live Site](https://memegeneratorscrimba.netlify.app/)
 
 ## Description
 The Meme Generator allows users to enter custom top and bottom text and overlay them on a randomly selected meme image. Each click of the "Get a new meme image" button fetches a random image, making it quick and fun to generate new memes.
