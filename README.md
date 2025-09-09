@@ -1,4 +1,4 @@
-# Scrimba Projects Repository
+# Scrimba Repository
 
 This repository contains all of the projects, build-alongs, and exercises I created while completing my certifications on [Scrimba](https://scrimba.com/). It includes both small JavaScript practice projects and larger React applications.
 
