@@ -57,7 +57,7 @@ export default function Questions(props){
             </section>
     ) 
     })
-    : <h2>Please Reload Page </h2>
+    : <h2>Loading... (If this takes over 5 seconds please reload page) </h2>
 
     const showCorrectAnswers =questions.map(question => { 
         return(
