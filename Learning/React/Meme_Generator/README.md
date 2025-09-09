@@ -1,12 +1,23 @@
-# React + Vite
+# Meme Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React build along built as part of the Scrimba React Course. This app fetches meme images from an external API and lets users generate custom memes by adding their own text on top.
 
-Currently, two official plugins are available:
+## Demo
+- [Live Site](https://app.netlify.com/projects/memegeneratorscrimba/overview)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+The Meme Generator allows users to enter custom top and bottom text and overlay them on a randomly selected meme image. Each click of the "Get a new meme image" button fetches a random image, making it quick and fun to generate new memes.
 
-## Expanding the ESLint configuration
+## Features
+- Fetches meme images from an external API  
+- Input fields for top and bottom text  
+- Overlay text dynamically updates on the image  
+- Button to load a new random meme image  
+- Simple, responsive design  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+- Uses `useState` to store input text and the current meme image  
+- Fetches meme image data from the [Imgflip API](https://api.imgflip.com/get_memes)  
+- On button click:
+  - A random meme image is selected from the fetched list  
+  - User text is rendered dynamically on the image  
