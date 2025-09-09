@@ -1,6 +1,7 @@
 # Quizzical
 
 A React trivia app that fetches questions from the Open Trivia Database. This version includes custom controls for number of questions, question type, and difficulty, plus a results screen with correct/incorrect highlighting.
+This project was developed as a **solo capstone project at the end of the Scrimba React Course**, bringing together everything I learned in React from state management and effects to API integration and conditional rendering.
 
 ## Demo
 - [Live Site](https://quizzical-manrojgill.netlify.app/)
