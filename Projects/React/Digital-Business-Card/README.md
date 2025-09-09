@@ -1,6 +1,6 @@
 # Digital Business Card
 
-A simple React app that showcases a personal digital business card. Built as part of the [Scrimba React Course](https://scrimba.com/), this project demonstrates core React concepts like components, JSX, and styling.
+A simple React app that showcases a personal digital business card. Built as part of the [Scrimba React Course](https://scrimba.com/), this solo project demonstrates core React concepts like components, JSX, and styling.
 
 ## Demo
 - [Live Site](https://digital-business-card-manroj.netlify.app/)
