@@ -1,12 +1,34 @@
-# React + Vite
+# Chef Claude
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React project that integrates with Anthropic’s Claude model to generate recipe suggestions from a list of ingredients. Users can input ingredients, and Chef Claude responds with a recipe idea in markdown format.
 
-Currently, two official plugins are available:
+## Note
+This project does **not** have a live deployment yet. A backend is required to securely handle the API key for Anthropic’s SDK, and currently the API key is exposed when running in the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+![App Demo](./chef-claude.gif)
 
-## Expanding the ESLint configuration
+## Description
+Chef Claude is an AI-powered recipe assistant. Users enter a list of ingredients, and the app generates a recipe suggestion using Anthropic’s Claude API. Recipes are displayed in a clean, readable format, thanks to markdown rendering.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Input form to add ingredients dynamically  
+- Ingredients list displays items entered by the user  
+- Generates recipe suggestions based on the provided ingredients  
+- Displays recipes with markdown formatting (headers, lists, etc.)  
+- Accessible design with screen reader-friendly live regions  
+
+## How It Works
+- Frontend only (React):  
+  - `Main.jsx` manages state for ingredients and recipe output  
+  - `IngredientsList.jsx` displays entered ingredients and allows generating a recipe  
+  - `ClaudeRecipe.jsx` renders AI output in markdown format  
+- `ai.js` integrates with Anthropic’s SDK to call Claude with a system prompt and user message  
+- Recipes are requested from the model `claude-3-haiku-20240307` with a max token limit  
+- Because the API call is in the frontend, the API key would be exposed in a production build — so no live deployment is available yet  
+
+## Built With
+- React (`useState`, components, JSX)  
+- [Anthropic AI SDK](https://www.npmjs.com/package/@anthropic-ai/sdk)  
+- `react-markdown` for rendering recipe text  
+- CSS for styling  
