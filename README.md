@@ -10,7 +10,7 @@ Projects with their own **README.md** files are highlighted here — these are t
 - [**Meme Generator**](Learning/React/Meme_Generator) – Fetches meme templates from an API and lets you overlay custom text.  
 - [**Quizzical**](Projects/React/Quizzical) – A trivia game with customizable settings (amount of questions, type, difficulty).  
 - [**Tenzies**](Projects/React/Tenzies) – Dice game capstone project with win conditions and confetti animation.  
-- [**Assembly: Endgame**](Projects/React/Assembly-Endgame) – A Wordle-style capstone project where wrong guesses “lose” programming languages until you’re stuck with Assembly.  
+- [**Assembly: Endgame**](Projects/React/AssemblyEndgame) – A Wordle-style capstone project where wrong guesses “lose” programming languages until you’re stuck with Assembly.  
 - [**Chef Claude**](Learning/React/Chef-Claude) – An AI-powered recipe generator using the Anthropic Claude API (local only, no live deployment yet).  
 
 ### JavaScript Projects
