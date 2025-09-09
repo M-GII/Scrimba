@@ -3,7 +3,7 @@
 This repository contains all of the projects, build-alongs, and exercises I created while completing my certifications on [Scrimba](https://scrimba.com/). It includes both small JavaScript practice projects and larger React applications.
 
 ## Projects Worth Checking Out
-Projects with their own **README.md** files are highlighted here — these are the ones I consider most complete and worth exploring. Each has details, features, and in most cases, a demo GIF.
+Projects with their own **README.md** files are highlighted here. These are the ones I consider most complete and worth exploring. Each has details, features, and in most cases, a demo GIF.
 
 ### React Projects
 - [**Quizzical**](Projects/React/Quizzical) – A trivia game with customizable settings (amount of questions, type, difficulty).  
