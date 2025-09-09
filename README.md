@@ -6,11 +6,11 @@ This repository contains all of the projects, build-alongs, and exercises I crea
 Projects with their own **README.md** files are highlighted here — these are the ones I consider most complete and worth exploring. Each has details, features, and in most cases, a demo GIF.
 
 ### React Projects
-- [**Digital Business Card**](Projects/React/Digital-Business-Card) – A simple React app that displays personal info like a modern portfolio card.  
-- [**Meme Generator**](Learning/React/Meme_Generator) – Fetches meme templates from an API and lets you overlay custom text.  
 - [**Quizzical**](Projects/React/Quizzical) – A trivia game with customizable settings (amount of questions, type, difficulty).  
 - [**Tenzies**](Projects/React/Tenzies) – Dice game capstone project with win conditions and confetti animation.  
-- [**Assembly: Endgame**](Projects/React/AssemblyEndgame) – A Wordle-style capstone project where wrong guesses “lose” programming languages until you’re stuck with Assembly.  
+- [**Assembly: Endgame**](Projects/React/AssemblyEndgame) – A Wordle-style capstone project where wrong guesses “lose” programming languages until you’re stuck with Assembly. 
+- [**Digital Business Card**](Projects/React/Digital-Business-Card) – A simple React app that displays personal info like a modern portfolio card.  
+- [**Meme Generator**](Learning/React/Meme_Generator) – Fetches meme templates from an API and lets you overlay custom text.   
 - [**Chef Claude**](Learning/React/Chef-Claude) – An AI-powered recipe generator using the Anthropic Claude API (local only, no live deployment yet).  
 
 ### JavaScript Projects
