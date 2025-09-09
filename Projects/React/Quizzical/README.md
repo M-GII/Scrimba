@@ -1,12 +1,39 @@
-# React + Vite
+# Quizzical
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React trivia app that fetches questions from the Open Trivia Database. This version includes custom controls for number of questions, question type, and difficulty, plus a results screen with correct/incorrect highlighting.
 
-Currently, two official plugins are available:
+## Demo
+- [Live Site](https://quizzical-manrojgill.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
+Quizzical lets users configure a quiz and then answer a series of questions. Questions and answers are HTML-entity decoded for readability, answers are shuffled per question, and the app enforces that all questions are answered before checking results. After submission, the UI shows which selections were correct or wrong and displays the final score, with an option to play again.
 
-## Expanding the ESLint configuration
+## Features
+- Choose number of questions (5–15)
+- Select question type: Multiple Choice or True/False
+- Select difficulty: Easy, Medium, Hard
+- Decodes HTML entities in questions/answers for clean text
+- Randomizes the placement of the correct answer among options
+- Prevents submission until all questions have a selection
+- Highlights results: green for correct, red for incorrect
+- Shows final score and allows restarting the quiz
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How It Works
+- Data source: [Open Trivia Database API](https://opentdb.com/)
+- Dynamic API URL built from user selections (`amount`, `type`, `difficulty`)
+- Answer options are constructed by combining the correct answer with incorrect ones and inserting the correct answer at a random index
+- Result checking:
+  - Before submit: selected options are tracked per question
+  - After submit: correct and incorrect selections are styled differently
+  - Score is computed by counting selected options that are correct
+
+## Tech Notes
+- React hooks: `useState`, `useEffect`
+- Libraries:
+  - `he` for HTML entity decoding
+  - `nanoid` for stable keys/IDs
+  - `clsx` for conditional class names
+- Basic state flow:
+  - Start Page collects `amount`, `type`, `difficulty`
+  - Fetch occurs on mount of the Questions view
+  - Local state tracks selections, submission status, and score display
