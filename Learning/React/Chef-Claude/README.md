@@ -1,6 +1,6 @@
 # Chef Claude
 
-A React project that integrates with Anthropic’s Claude model to generate recipe suggestions from a list of ingredients. Users can input ingredients, and Chef Claude responds with a recipe idea in markdown format.
+A  build-along React project that integrates with Anthropic’s Claude model to generate recipe suggestions from a list of ingredients. Users can input ingredients, and Chef Claude responds with a recipe idea in markdown format.
 
 ## Note
 This project does **not** have a live deployment yet. A backend is required to securely handle the API key for Anthropic’s SDK, and currently the API key is exposed when running in the browser.
