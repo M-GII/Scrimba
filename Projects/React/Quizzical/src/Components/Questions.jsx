@@ -8,7 +8,17 @@ export default function Questions(props){
     const [showAnswers , setShowAnswers ] = useState(false)
     const answersCorrect = questions.map(q => q.options.some(o => o.isClicked && o.isCorrect)).filter(Boolean).length
     useEffect(() => {
-        fetch("https://opentdb.com/api.php?amount=5")
+        const amount = props.amount
+        const type = props.type
+        const difficulty = props.difficulty
+        let url = `https://opentdb.com/api.php?amount=${amount}`
+        if (difficulty !== "any"){
+            url += `&difficulty=${difficulty}`
+        }
+        if (type !== "any"){
+            url +=`&type=${type}`
+        }
+        fetch(url)
             .then(res => res.json())
             .then(data => data.results)
             .then(result =>result.map(obj => {

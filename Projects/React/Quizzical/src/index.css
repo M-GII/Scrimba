@@ -3,7 +3,12 @@ body {
   font-family: "Karla", sans-serif;
   color: #293264;
   height: 100%;
+  min-height: 100vh;
   text-align: center;
+  background-image: url('./images/yellowblob.png'), url('./images/blueblob.png');
+  background-repeat: no-repeat, no-repeat;
+   background-position: top right, bottom  left ;
+  background-size: 200px, 200px;
 }
 
 section.starting-page{
@@ -27,7 +32,31 @@ section.starting-page > p{
   font-style: normal;
   font-size: 16px;
 }
+section.starting-page > section.selections{
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column ;
+  margin-top: 40px;
+}
+section.starting-page >section.selections> label{
+  margin-bottom: 30px;
+}
+section.starting-page >section.selections> label > select , input{
+  font-family: "Karla", sans-serif;
+  color: #293264;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 5px 5px;
+  text-align: center;
+  margin-left: 8px;
 
+}
+section.starting-page >section.selections> label > select > option{
+  margin-left: 50px;
+
+}
 section.starting-page > button{
   background-color: #4D5B9E;
   color: #F5F7FB;
@@ -37,8 +66,7 @@ section.starting-page > button{
   font-size: 16px;
   border: none;
   border-radius: 5px;
-  width: 8%;
-  height: 5%;
+  padding: 15px 30px;
   margin-top: 10px;
   cursor: pointer;
 
