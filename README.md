@@ -22,7 +22,7 @@ Projects with their own **README.md** files are highlighted here. These are the 
 ## About
 - Each project lives in its own folder under `Learning/` or `Projects/`.  
 - Many include a `README.md` with details, features, and a demo GIF or link.  
-- These projects were built following along with Scrimba’s **Learn JavaScript** and **Learn React** courses, as well as the capstone projects at the end of each section.  
+- These projects were built following along with Scrimba’s **Learn JavaScript** and **Learn React** courses, as well as the capstone projects / solo projects at the end of each section.  
 
 ## Note
 - Some projects are deployed (React apps), and links/GIFs are included in their individual READMEs.  
