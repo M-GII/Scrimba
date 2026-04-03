@@ -2,7 +2,7 @@
 
 This repository documents my progression from foundational JavaScript concepts to building full-stack applications using React, Node.js, and Express. It includes both guided projects and independently extended applications developed while completing Scrimba certifications.
 
-## Certifications
+## Certification Completed
 - Scrimba Learn JavaScript  
 - Scrimba Learn React  
 - Scrimba Learn Node.js  
