@@ -101,9 +101,3 @@ Handles user cart operations.
 - Uses session-based authentication (not JWT)
 - Database is local (SQLite)
 - Designed as a learning project for fullstack backend development
-
-## Future Improvements
-- Add password hashing (bcrypt)
-- Replace sessions with JWT authentication
-- Add validation and error handling middleware
-- Deploy backend and connect to frontend
