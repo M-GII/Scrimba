@@ -1,15 +1,15 @@
-# Scrimba Repository
+# Web Development Projects
 
-This repository contains projects, build-alongs, and exercises I completed while working through Scrimba certifications in JavaScript, React, Node.js, and Express.js. It includes both smaller practice projects and larger applications that helped me build front-end and back-end development skills.
+This repository documents my progression from foundational JavaScript concepts to building full-stack applications using React, Node.js, and Express. It includes both guided projects and independently extended applications developed while completing Scrimba certifications.
 
-## Certifications Covered
-- Scrimba Learn JavaScript
-- Scrimba Learn React
-- Scrimba Learn Node.js
-- Scrimba Learn Express.js
+## Certifications
+- Scrimba Learn JavaScript  
+- Scrimba Learn React  
+- Scrimba Learn Node.js  
+- Scrimba Learn Express.js  
 
-## Projects Worth Checking Out
-Projects with their own **README.md** files are highlighted here. These are the ones I consider most complete and worth exploring. Each has details, features, and in some cases, a demo GIF or deployment link.
+##Featured Projects
+Projects with their own **README.md** files are highlighted here. These represent my most complete and polished work, including larger applications and capstone projects.
 
 ### React Projects
 - [**Quizzical**](Projects/React/Quizzical) – A trivia game with customizable settings (amount of questions, type, difficulty).  
@@ -33,9 +33,9 @@ Projects with their own **README.md** files are highlighted here. These are the 
 
 ## About
 - Each project lives in its own folder under `Learning/` or `Projects/`.  
-- Many include a `README.md` with details, features, and a demo GIF, deployment link, or setup instructions.  
-- These projects were built through Scrimba coursework, certifications, and capstone projects, then organized here as a record of my progress and learning.
+- Many include a `README.md` with details, features, and setup instructions.  
+- This repository serves as a structured record of my development across front-end and back-end technologies.
 
 ## Note
-- Some projects are deployed, especially the React apps, and links are included in their individual READMEs.  
-- Some folders are smaller exercises or build-alongs, while the highlighted projects above are the strongest ones to review first.
+- Some projects are deployed (especially React apps), with links included in their individual READMEs.  
+- Smaller exercises and build-alongs are included for completeness, while featured projects represent my strongest work.
