@@ -8,7 +8,7 @@ This repository documents my progression from foundational JavaScript concepts t
 - Scrimba Learn Node.js  
 - Scrimba Learn Express.js  
 
-##Featured Projects
+## Featured Projects
 Projects with their own **README.md** files are highlighted here. These represent my most complete and polished work, including larger applications and capstone projects.
 
 ### React Projects
